@@ -1,0 +1,3 @@
+# Ignore certain files and directories
+src/vendor
+src/node_modules

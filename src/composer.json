@@ -1,0 +1,15 @@
+{
+    "name": "niko/src",
+    "autoload": {
+        "psr-4": {
+            "Niko\\Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikolaj Sommer",
+            "email": "nikolaj.jensen@gmail.com"
+        }
+    ],
+    "require": {}
+}

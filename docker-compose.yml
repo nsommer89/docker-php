@@ -1,0 +1,13 @@
+services:
+  php:
+    container_name: phpfpm
+    image: nsommer89/php:latest
+    volumes:
+      - ./src:/var/www/html
+  nginx:
+    container_name: nginx
+    image: nsommer89/nginx:latest
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 80:80
